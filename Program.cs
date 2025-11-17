@@ -14,13 +14,13 @@ public class Program
     
     static void Fyllerlager(BiffLager<Biff> Lager)
  {  
-    //oppretter biff lager her med type, kilo og slakte dato, toppen legges på først og printes ut sist
+    //oppretter biff lager her med type, kilo og slakte dato, toppen legges inn først og printes ut sist
       Lager.push(new() { Type = BiffType.Tbone,  VektKg = 1.0, SlakteDato = new DateTime (2025, 11, 15) });
       Lager.push(new() {Type = BiffType.Entrecote,  VektKg = 1.1, SlakteDato = new DateTime (2025, 11, 14) });
       Lager.push(new() {Type = BiffType.Waygu,  VektKg = 0.4, SlakteDato = new DateTime (2025, 11, 14) });
       Lager.push(new() {Type = BiffType.Tbone,  VektKg = 0.9, SlakteDato = new DateTime (2025, 11, 13) }); 
       Lager.push(new() {Type = BiffType.Entrecote,  VektKg = 1.3, SlakteDato = new DateTime (2025, 11, 12) });
-// printer ut bunnen først og beveger seg opp
+//  tas inn sist og stackes opp til toppen og poppes ut først
     
 }
 
