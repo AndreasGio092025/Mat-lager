@@ -1,0 +1,64 @@
+							Biff lager:
+
+Jeg har laget et program som viser et lager av biff hos kjøtt makeren 5 biff typer, vekt og slakte dato 
+med dissen dataene simulerer jeg et lager der dataene blir lagt inn fra dato 15-11 til 12-11.
+
+når lageret blir åpnet blir da pushet fra bunnen og poppet opp fra dato 12-11 helt opp til sist slaktet 15.11
+
+ legger til dato når di 3 eldste biffene blir solgt 
+
+åpner lageret på nytt og viser lagermengde  får opp entrecote og T bone med nyeste dato
+
+sjekker lager status en siste gang og får opp at siste biffene ble solgt 22.11.2025
+og programmet avslutter etter bruker har trykket en nøkkel.
+
+
+
+public class Program
+
+    
+    static void Fyllerlager(BiffLager<Biff> Lager)
+   
+    //oppretter biff lager her med type, kilo og slakte dato, toppen legges på først og printes ut sist
+      Lager.push(new() { Type = BiffType.Tbone,  VektKg = 1.0, SlakteDato = new DateTime (2025, 11, 15) });
+      Lager.push(new() {Type = BiffType.Entrecote,  VektKg = 1.1, SlakteDato = new DateTime (2025, 11, 14) });
+      Lager.push(new() {Type = BiffType.Waygu,  VektKg = 0.4, SlakteDato = new DateTime (2025, 11, 14) });
+      Lager.push(new() {Type = BiffType.Tbone,  VektKg = 0.9, SlakteDato = new DateTime (2025, 11, 13) }); 
+      Lager.push(new() {Type = BiffType.Entrecote,  VektKg = 1.3, SlakteDato = new DateTime (2025, 11, 12) });
+// printer ut bunnen først og beveger seg opp
+
+--- legger til et stack lager disse blir printet ut fra bunn og opp
+
+
+   
+ Console.WriteLine("=== 3 av di eldste biffene solgt datoen: 19.11.2025 ===\n ");
+    for (int i = 0; i < 3; i++)
+        
+            if(!Lager.IsEmpty)
+            
+                Lager.pop();
+
+--- selger di eldste biffene Entrecote, Tbone og Waygu som er pushet fra nederst i stacket og på toppen
+
+
+Console.WriteLine("\n === Gjenstående Biffer === ");
+    Lager.VisLager();
+
+--- viser lager på nytt med di 2 siste biffene
+
+ 
+
+Console.WriteLine("=== sjekker lager status ===");
+    if(Lager.IsEmpty) 
+    Lager.pop();
+    
+    else
+    Console.WriteLine("Lagre er tomt fra dato 22.11.2025");
+    Console.WriteLine("\nAvslutt. Trykke en tast...");
+    Console.ReadKey();
+
+--- her er lagret tomt og den går ned til else som avslutter ved tastetrykk
+
+
+
+            

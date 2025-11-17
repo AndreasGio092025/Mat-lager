@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.0.3">
+  <diagram name="Page-1" id="GZA3ZFvg66M5Zj8ny8ne">
+    <mxGraphModel dx="1106" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-1" target="PKXI9rm-hD6aTfioH3fv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-1" value="&lt;font size=&quot;3&quot;&gt;Start program&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-3" target="PKXI9rm-hD6aTfioH3fv-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-3" value="&lt;br&gt;&lt;div&gt;Lager blir fylt&lt;/div&gt;&lt;div&gt;toppen først&lt;/div&gt;&lt;div&gt;15.11&lt;/div&gt;&lt;div&gt;14.11&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-5" value="viser lager&amp;nbsp;&lt;div&gt;12.11&lt;/div&gt;&lt;div&gt;13.11&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="35" y="400" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-8" target="PKXI9rm-hD6aTfioH3fv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-8" value="selger 3 biffer&lt;div&gt;&amp;nbsp; popper og øverste blir borte&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;12.11&lt;/span&gt;&lt;/div&gt;&lt;div&gt;13.11&lt;/div&gt;&lt;div&gt;14.11&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="40" y="560" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-10" value="viser lager&lt;div&gt;(to biffer gjenstår)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="55" y="720" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PKXI9rm-hD6aTfioH3fv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-13" value="selger siste 2 biffene" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="55" y="900" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PKXI9rm-hD6aTfioH3fv-15" value="output: &quot;sjekker status&quot;&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;lagret er tomt og programmet avsluttes med &quot;lageret er tomt&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1070" width="110" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
