@@ -16,10 +16,10 @@ namespace Mat_generic;
         for(int i = 0 ; i < antall; i++)
        
         
-         //if (lager.IsEmpty)
+         if (lager.IsEmpty)
        { 
             
-            //Console.WriteLine($"[Stopp] ikke nok biffer igjen - stopp etter {solgt} solgt");
+           // Console.WriteLine($"[Stopp] ikke nok biffer igjen - stopp etter {solgt} solgt");
             //return;
         }                //disse også borte
         
@@ -29,7 +29,7 @@ namespace Mat_generic;
    
     
     
-       // if (solgt == antall)
+       //if (solgt == antall)
         
         // Console.WriteLine($"[FERDIG] Alle {antall} biffer solgt! ");
         
@@ -38,5 +38,3 @@ namespace Mat_generic;
         
    
    } 
- 
- 

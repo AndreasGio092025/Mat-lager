@@ -2,7 +2,7 @@ using Mat_Lager;
 
 namespace Mat_generic;
 
-public class BiffLager<T> : IPoppable<T>, Ipushable<T> where T : class
+public class BiffLager<T> : IPoppable<T>, Ipushable<T> where T : notnull
 { 
 
     private readonly Stack<T> _stabel = new();
